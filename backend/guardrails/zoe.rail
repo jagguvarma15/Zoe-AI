@@ -1,0 +1,11 @@
+<rail version="0.1">
+  <output>
+    <string name="response" description="A helpful, safe, and factual answer to the user's question." />
+  </output>
+
+  <prompt>
+    Given the user query, respond with a helpful and safe answer that aligns with business domain knowledge.
+    Do not make up facts or fabricate URLs. Avoid legal or medical advice.
+    {{user_input}}
+  </prompt>
+</rail>
